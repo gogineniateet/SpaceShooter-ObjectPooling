@@ -71,7 +71,4 @@ public class PoolObject
     public GameObject prefab;
     public int amount;
 
-
-
-
 }
