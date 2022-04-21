@@ -62,13 +62,19 @@ public class PlayerController : MonoBehaviour
         {
             health = Mathf.Clamp(health - 10, 0, 100);
             Debug.Log("Health : " + health);
+            collision.gameObject.SetActive(false);
             //heathText.text = health.ToString();
             //collision.gameObject.SetActive(false);
         }
-        if (collision.gameObject.tag == "HealthKit")
+        if (collision.gameObject.tag == "Health")
         {
-            health = Mathf.Clamp(health + 50, 0, 100);
+            health = Mathf.Clamp(health + 10, 0, 100);
+            Debug.Log("Health : " + health);
+            collision.gameObject.SetActive(false);
+            //heathText.text = health.ToString();
+            //collision.gameObject.SetActive(false);
         }
+        
     }
    
    

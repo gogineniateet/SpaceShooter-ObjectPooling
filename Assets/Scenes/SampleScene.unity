@@ -489,6 +489,8 @@ MonoBehaviour:
     amount: 10
   - prefab: {fileID: 2621391153563759078, guid: f4e18b162f97484449313792a1214640, type: 3}
     amount: 10
+  - prefab: {fileID: 6309294480318090809, guid: 5eb663ed9878d5e458e4b64c65ee1d45, type: 3}
+    amount: 5
 --- !u!1 &892142143
 GameObject:
   m_ObjectHideFlags: 0

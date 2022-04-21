@@ -26,6 +26,7 @@ public class BulletMovement : MonoBehaviour
             gameObject.SetActive(false);
             score.ScoreUpdate(10);
         }
+
     }
 
 }
